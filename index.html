@@ -17,7 +17,6 @@
       <div ng-repeat="task in taskList | filter: taskInList | orderBy: 'created_at':true">
         <ul>
 
-        </ul>
         <li>
           {{ task.name }}
           <button type="button" ng-click="remove(task)">Remove</button>
