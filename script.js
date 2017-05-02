@@ -14,7 +14,7 @@ app.controller('ourController', function($scope){
 
       $scope.remove = function(task) {
       var index = $scope.taskList.indexOf(task);
-      $scope.taskList.splice($scope.task, 0);
+      $scope.taskList.splice($scope.task, 1);
       }
 
 
